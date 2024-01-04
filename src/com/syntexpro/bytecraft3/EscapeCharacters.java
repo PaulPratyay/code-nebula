@@ -1,4 +1,4 @@
-package com.syntexpro.javaclass3;
+package com.syntexpro.bytecraft3;
 
 public class EscapeCharacters {
     public static void main(String[] args) {
