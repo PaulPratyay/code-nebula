@@ -1,4 +1,4 @@
-package com.syntexpro.javaclass2.operators;
+package com.syntexpro.bytecraft2.operators;
 
 public class ArithmeticUnaryOperators {
     public static void main(String[] args) {
