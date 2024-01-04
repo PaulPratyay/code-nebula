@@ -1,4 +1,4 @@
-package com.syntexpro.javaclass2;
+package com.syntexpro.bytecraft2;
 
 public class DataTypes {
     public static void main(String[] args) {
