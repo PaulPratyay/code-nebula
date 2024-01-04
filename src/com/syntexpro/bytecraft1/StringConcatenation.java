@@ -1,4 +1,4 @@
-package com.syntexpro.javaclass1;
+package com.syntexpro.bytecraft1;
 
 public class StringConcatenation {
     public static void main(String[] args) {
