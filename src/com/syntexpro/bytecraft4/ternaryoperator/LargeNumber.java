@@ -15,7 +15,7 @@ public class LargeNumber {
         System.out.println("Enter the second number: ");
         double num2 = largeNumber.nextDouble();
 
-        String a = (num1 > num2) ? + num1 + " is greater " : + num2 + " is greater ";
+        String a = (num1 > num2) ? +num1 + " is greater " : +num2 + " is greater ";
         System.out.println(a);
     }
 }

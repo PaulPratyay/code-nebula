@@ -19,13 +19,13 @@ public class IfElseStatement {
 
         String username = "Paul", password = "12345";
 
-        if ((username.equals("Pal")) && (password.equals("12345"))){
+        if ((username.equals("Pal")) && (password.equals("12345"))) {
             System.out.println("Welcome to Paul's World");
         } else {
             System.out.println("Please enter your correct Username and Password");
         }
 
-        if (10 > 5){
+        if (10 > 5) {
             System.out.println("Welcome to Java Programming");
         } else {
             System.out.println("10 is greater than 5");
@@ -57,7 +57,7 @@ public class IfElseStatement {
             System.out.println("You are here");
         }
 
-        if (score >=5000){
+        if (score >= 5000) {
             System.out.println("Your score is greater or equal to 5000");
         } else {
             System.out.println("You are here");

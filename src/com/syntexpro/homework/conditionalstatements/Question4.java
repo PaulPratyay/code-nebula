@@ -13,7 +13,6 @@ public class Question4 {
          */
 
 
-
         Scanner leapYear = new Scanner(System.in);
 
         System.out.println("Enter the year: ");

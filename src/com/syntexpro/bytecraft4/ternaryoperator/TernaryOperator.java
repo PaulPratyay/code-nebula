@@ -28,7 +28,7 @@ public class TernaryOperator {
         //Determining Grade
 
         int score = 92;
-        char grade = (score >=60) ? 'P' : 'F';
+        char grade = (score >= 60) ? 'P' : 'F';
         System.out.println("Your Grade: " + grade);
 
         //PositiveNegative
@@ -38,7 +38,6 @@ public class TernaryOperator {
         System.out.println(positiveNegative);
 
 
-
         //NestedTernary
 
         int P = 8;
@@ -46,15 +45,12 @@ public class TernaryOperator {
         System.out.println("type: " + type);
 
         num = -5;
-        positiveNegative = (num > 0) ? "Positive" :  (num < 0) ? "Negative" : "Zero";
+        positiveNegative = (num > 0) ? "Positive" : (num < 0) ? "Negative" : "Zero";
         System.out.println(positiveNegative);
 
         int m = 83654, n = 94587, o = 83465;
-        int greatNum = ((m > n) && (m > o)) ? + m : ((n > m) && (n > o)) ? + n : + o;
+        int greatNum = ((m > n) && (m > o)) ? +m : ((n > m) && (n > o)) ? +n : +o;
         System.out.println(greatNum);
-
-
-
 
 
     }

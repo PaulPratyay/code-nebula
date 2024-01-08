@@ -8,7 +8,7 @@ public class PositiveNegativeZero {
         Scanner positiveNegativeZero = new Scanner(System.in);
 
         System.out.println("Enter a number: ");
-        double num  = positiveNegativeZero.nextDouble();
+        double num = positiveNegativeZero.nextDouble();
 
         if (num > 0) {
             System.out.println("Positive Number");

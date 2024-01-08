@@ -33,7 +33,7 @@ public class IfStatement {
         if (25 < 50) {
             System.out.println("25 is the smallest number");
         }
-        if (25 > 100){
+        if (25 > 100) {
             System.out.println("Wrong Condition");
         }
         if (25 <= 50) {
@@ -42,7 +42,7 @@ public class IfStatement {
         if (100 >= 75) {
             System.out.println("100 is greater than 75 but not equal to 75");
         }
-        if (100 >=450) {
+        if (100 >= 450) {
             System.out.println("100 is not greater or equal to 450");
         }
         if (45 <= 25) {
