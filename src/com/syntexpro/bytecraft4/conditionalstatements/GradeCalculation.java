@@ -13,7 +13,7 @@ public class GradeCalculation {
 
         if (marks >= 95 && marks <= 100) {
             System.out.println("Your Grade is: A");
-        } else if (marks >= 92 && marks <= 94) {exit
+        } else if (marks >= 92 && marks <= 94) {
             System.out.println("Your Grade is: A-");
         } else if (marks >= 89 && marks <= 91) {
             System.out.println("Your Grade is: B+");
