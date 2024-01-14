@@ -2,6 +2,10 @@ package com.syntexpro.bytecraft5.loop.forloop;
 
 public class ForLoop {
     public static void main(String[] args) {
+        /*
+        The 'for' loop is commonly used when the number of iterations is known in advance.
+        It consists of three parts: initialization, condition, and iteration expression.
+         */
 
         for (int i = 1; i <= 5; i++) {
             System.out.println("Java");
