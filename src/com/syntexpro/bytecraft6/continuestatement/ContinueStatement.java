@@ -48,7 +48,7 @@ public class ContinueStatement {
 
         do {
             if (counter == 4) {
-               counter++;
+                counter++;
                 continue;
             }
             System.out.println("Counter " + counter);
