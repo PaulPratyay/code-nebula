@@ -26,6 +26,7 @@ public class MethodBasic {
         returnMethod(); // It is not printed, because the return "25 + 64" is stored in returnMethod;
         System.out.println("Addition in return method: " + returnMethod());
         System.out.println("String in return method: " + returnMethod("Java")); // I had to provide a parameter as firstString to call this 'returnMethod'
+        System.out.println("Product = " + returnMethod(10,12));
 
     }
 
@@ -44,6 +45,10 @@ public class MethodBasic {
 
     public static String returnMethod(String firstString) {
         return "I am enjoying learning Java Programming";
+    }
+
+    public static int returnMethod(int x, int y) {
+        return x * y;
     }
 
 
