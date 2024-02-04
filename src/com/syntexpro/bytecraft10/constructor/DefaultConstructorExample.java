@@ -1,5 +1,6 @@
 package com.syntexpro.bytecraft10.constructor;
 
+// Example of default constructor that displays the default values
 public class DefaultConstructorExample {
 
     int id;
@@ -21,4 +22,9 @@ public class DefaultConstructorExample {
         System.out.println(s1);
         System.out.println(s2);
     }
+
+    /*
+        -> In this, example, we are not creating any constructor, so compiler provides us a default constructor;
+        -> Here, 0 and null value are provided by default constructor;
+     */
 }
