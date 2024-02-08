@@ -16,7 +16,7 @@ public class IOExceptionExample2 {
         // Creating a text file
 
         try{
-            File file = new File("src/com/syntexpro/bytecraft12/exception/Exception Notes.text");
+            File file = new File("src/com/syntexpro/bytecraft12/exception/ExceptionNotes.text");
             file.createNewFile();
         } catch (IOException e) {
             System.out.println(e);

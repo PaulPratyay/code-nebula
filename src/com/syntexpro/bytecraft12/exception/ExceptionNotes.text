@@ -1,0 +1,72 @@
+>>Exception<<
+
+-> In Java, an exception is an event that disrupts the normal flow of the program;
+-> It is an object which is thrown at runtime;
+
+				>>Exception Handling<<
+
+-> Exception Handling is a mechanism to handle runtime erros such as ClassNotFoundException, IOException, SQLException, RemoteException. etc
+-> The core advantage of exception handling is to maintain the normal flow of the application;
+-> An exception normally disrupts the normal flow of the application, that is why we need to handle exception;
+
+				>>Hierarchy of Java Exception Classes<<
+
+-> The java.lang.Throwable class is the root class of Java Exception hierarchy inherited by two subclasses:
+
+					-> Exception
+					-> Error
+
+-> Exception has two types:
+
+	i) Runtime Exception/Unchecked Exception
+
+		-> ArithmeticException
+		-> IllegalArgumentException
+		-> NullPointerException
+		-> NumberFormatException
+		-> IndexOutOfBoundException
+			-> ArrayIndexOutOfBoundsException
+			-> StringIndexOutOfBoundsException
+
+	ii) IOException/Checked Exception
+		-> FileNotFoundException
+		-> SocketException
+
+Error can be as follows:
+
+	-> SocketOverFlowError
+	-> VirtualMachineError
+	-> OutOfMemoryError
+
+
+-> 'Process finished with exit code 0' -> Code executed successfully; No Error in code;
+
+-> 'Process finished with exit code 1' -> There is error in code;
+
+-> It is a good practice to use variable 'e' in exception; But you can use any variable;
+
+-> It's not possible to know about every exception; So we can just use Parent 'Exception'; Java will automatically detect what exception it is;
+
+
+	**Exception can be controlled but Error cannot be controlled**
+
+-> 'finally' block
+	-> Java 'finally' block  is a block used to execute important code such as closing the connection, etc.;
+	-> Java finally block is always executed whether an exception is handled or not;
+	-> Therefore, it contains all the necessary statements that need to printed regardless of the exception occurs or not;
+	-> The 'finally' block follows the try-catch block;
+
+
+
+					>>Custom Exception<<
+
+-> In Java, we can create our own exceptions that are derived classes of the Exception class;
+-> Creating our own Exception is known as custom exception or user-defined exception;
+-> Basically, Java custom exceptions are used to customize the exception according to user need;
+
+-> 'throw' keyword
+	-> It is used to explicitly throw an exception within a method or block of code;
+
+-> 'throws' keyword
+	-> It is used in method declaration to specify the types of exceptions that the method may throw, but doesn't handle itself;
+
