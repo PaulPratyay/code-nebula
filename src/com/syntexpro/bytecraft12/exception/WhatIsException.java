@@ -51,5 +51,7 @@ public class WhatIsException {
          The above example throws an ArithmeticException if it is divided by 0;
          */
     }
+
+
 }
 

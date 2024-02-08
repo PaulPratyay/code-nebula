@@ -1,5 +1,6 @@
 package com.syntexpro.bytecraft12.exception_handling.checked;
 
+import java.io.File;
 import java.io.IOException;
 
 public class IOExceptionExample2 {
@@ -11,5 +12,14 @@ public class IOExceptionExample2 {
             System.out.println("IOException caught: " + e.getMessage());
         }
         System.out.println("After try-catch bock");
+
+        // Creating a text file
+
+        try{
+            File file = new File("src/com/syntexpro/bytecraft12/exception/Exception Notes.text");
+            file.createNewFile();
+        } catch (IOException e) {
+            System.out.println(e);
+        }
     }
 }
