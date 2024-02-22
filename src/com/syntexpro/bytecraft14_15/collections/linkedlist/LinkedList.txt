@@ -1,0 +1,20 @@
+                    >>LinkedList<<
+
+-> Java LinkedList class uses a doubly linked list to store the elements;
+-> It provides a linked-list data structure;
+-> It inherits the AbstractList Class and implements List and Deque interfaces;
+
+            **Important points about Java LinkedList**
+
+=> Java LinkedList class can contain duplicate elements;
+=> Java LinkedList class maintains insertion order;
+=> Java LinkedList class is non synchronized;
+=> In Java LinkedList class, manipulation is fast because no shifting needs to occur ;
+=> Java LinkedList class can be used as a list, stack or queue;
+
+-> Works same as ArrayList;
+-> In memory, it is stored node wise;
+-> It checks every node to find out the value;
+-> Nodes are connected as chains;
+-> When we add/remove data, it will just connect its chain to the corresponding chain;
+-> LinkedList is faster and good for adding/removing data;

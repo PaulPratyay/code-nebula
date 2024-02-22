@@ -1,0 +1,40 @@
+                    >>ArrayList<<
+
+-> Java ArrayList class uses a dynamic array for storing the elements;
+-> It is like an array, but there is no size limit;
+-> We can add or remove elements anytime;
+-> So, it is much more flexible than the traditional array;
+-> It is found in the java.util package;
+
+-> The ArrayList in Java can have the duplicate elements also;
+-> It implements the List interface, so we can use all the methods of the List interface here;
+-> The ArrayList maintains the insertion order internally;
+
+-> It inherits the AbstractList class and implements List interface;
+
+
+                    **Important points about Java ArrayList class**
+
+=> Java ArrayList can contain duplicate elements;
+=> Java ArrayList class maintain insertion order;
+=> Java ArrayList class in non synchronized;
+=> Java ArrayList allows random access because the array works on an index basis;
+=> In ArrayList, manipulation is a little bit slower than LinkedList in Java because a lot of shifting needs to occur if any element is removed from the array list;
+=> We cannot create an array list of the primitive types, such as int, float, char, etc.,;
+=> It is required to use the required Wrapper class in such cases;
+
+Example:
+
+        ArrayList<data type> arrayListName = new ArrayList<>();
+
+        ArrayList<Integer> myFirstArrayList = new ArrayList<>();
+
+
+-> Have to use Wrapper Class Data Type -> Integer, Double, String, Character, etc.,;
+-> In memory, it is stored in index wise;
+-> It directly goes to the searched index and fetches that respective index value;
+-> But when data is added/removed, the index is shifted left(in case of data removal) and shifts right(in case of data added);
+   -> This process makes fetching data slow when we are adding or removing;
+->ArrayList is good for searching;
+
+
