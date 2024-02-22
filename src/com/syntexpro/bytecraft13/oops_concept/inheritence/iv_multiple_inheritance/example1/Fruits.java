@@ -1,4 +1,4 @@
-package com.syntexpro.javaclass13.oops_concept.inheritance.iv_multiple_inheritance.example1;
+package com.syntexpro.bytecraft13.oops_concept.inheritence.iv_multiple_inheritance.example1;
 
 public class Fruits implements Mango,Avocado{
     @Override
