@@ -38,3 +38,17 @@ Example:
 ->ArrayList is good for searching;
 
 
+                    >>How Java creates ArrayList in Memory<<
+
+      ArrayList<String> list = new ArrayList<>();
+
+-> So, when we initially create an ArrayList, it creates an array size of 10;
+-> But, when we see the size of that array, it shows size = 0; But it actually creates an array size of 10;
+-> Since, we don't mention any size in ArrayList, it creates a size of 10 in memory but shows us 0;
+
+-> Now, when we put input to our 11 number data in ArrayList, it increases its array size to 20; Basically it multiplies the array size by 2;
+-> Similarly, when we put input to our 21 number data in ArrayList, it increases its array size to 40;
+
+-> The size of array keeps increasing linearly by multiplying its size by 2;
+
+
